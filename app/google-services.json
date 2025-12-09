@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "929134108558",
+    "firebase_url": "https://examenp3firebase-default-rtdb.firebaseio.com",
+    "project_id": "examenp3firebase",
+    "storage_bucket": "examenp3firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929134108558:android:dba8a38cb61983eca20edf",
+        "android_client_info": {
+          "package_name": "com.example.examenparcial3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9T5DsaAlPJOJ0Kqd_9rkcazLMo_wLPqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

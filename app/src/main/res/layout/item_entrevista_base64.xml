@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivImagen"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvPeriodista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Periodista"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="3dp" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Editar"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Eliminar"
+                android:backgroundTint="#E53935"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
